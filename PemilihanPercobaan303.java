@@ -11,7 +11,7 @@ public class PemilihanPercobaan303 {
 
     System.out.print("Masukkan angka pertama: ");
     angka1 = input03.nextDouble();
-    System.out.print("Masukkan angka kedua");
+    System.out.print("Masukkan angka kedua: ");
     angka2 = input03.nextDouble();
     System.out.print("Masukkan operator (+ - * /): ");
     operator = input03.next().charAt(0);
@@ -20,7 +20,6 @@ public class PemilihanPercobaan303 {
         case '+':
             hasil = angka1 + angka2;
             System.out.println(angka1+ "+" + angka2 + "=" + hasil);
-            break;
         case '-':
             hasil = angka1 - angka2;
             System.out.println(angka1+ "-" + angka2 + "=" + hasil);
